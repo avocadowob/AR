@@ -1,0 +1,14 @@
+<model-viewer src="sawen.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-surface="0 0 5174 5243 5219 0.644 0.245 0.111" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">紅色眼睛戴著耳機的終界使者</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-surface="0 0 2990 3086 2997 0.266 0.489 0.246" data-visibility-attribute="visible"></button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
